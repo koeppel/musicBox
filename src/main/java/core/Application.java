@@ -1,6 +1,6 @@
 package core;
 
-import musicbox.commands.MusicBox;
+import musicbox.commands.MusicBoxCommand;
 import listeners.CommandListener;
 import listeners.JoinListener;
 import listeners.ReadyListener;
@@ -41,6 +41,6 @@ public class Application {
     }
 
     private static void addCommands() {
-        CommandHandler.addCommand("musicbox", new MusicBox());
+        CommandHandler.addCommand("mb", new MusicBoxCommand());
     }
 }

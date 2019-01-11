@@ -1,10 +1,9 @@
-package musicbox;
+package musicbox.core;
 
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
 import com.sedmelluq.discord.lavaplayer.player.event.AudioEvent;
 import com.sedmelluq.discord.lavaplayer.player.event.AudioEventListener;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import musicbox.commands.MusicBox;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -115,6 +114,10 @@ public class TrackScheduler implements AudioEventListener {
             }
             queue.removeAll(tracksToRemove);
         }
+    }
+
+    public void clear() {
+        this.queue = new LinkedList<>();
     }
 
     public Queue<AudioTrack> getPlayList() {
