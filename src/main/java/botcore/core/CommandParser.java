@@ -1,4 +1,4 @@
-package core;
+package botcore.core;
 
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import utils.STATIC;

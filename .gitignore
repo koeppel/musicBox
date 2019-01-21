@@ -2,3 +2,4 @@
 SECRETS.java
 .idea
 .DS_Store
+target/*

@@ -1,7 +1,7 @@
 package musicbox.commands;
 
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
-import commands.Command;
+import botcore.commands.Command;
 import musicbox.core.MusicBox;
 import musicbox.core.MusicBoxHandler;
 import net.dv8tion.jda.core.EmbedBuilder;
@@ -159,7 +159,7 @@ public class MusicBoxCommand implements Command {
     }
 
     /***
-     * Adds Fields and a Title to the EmbedBuilder to list all commands and their descriptions
+     * Adds Fields and a Title to the EmbedBuilder to list all botcore.commands and their descriptions
      */
     private void configureHelpEmbedBuilder(EmbedBuilder embedBuilder) {
         embedBuilder.setTitle("Übersicht der Befehle für '!musicbox' :");

@@ -1,4 +1,4 @@
-package commands;
+package botcore.commands;
 
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 

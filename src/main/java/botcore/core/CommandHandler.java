@@ -1,6 +1,7 @@
-package core;
+package botcore.core;
 
-import commands.Command;
+import botcore.core.CommandParser;
+import botcore.commands.Command;
 import net.dv8tion.jda.core.entities.Message;
 
 import java.util.HashMap;

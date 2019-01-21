@@ -1,7 +1,7 @@
-package listeners;
+package botcore.listeners;
 
-import core.CommandHandler;
-import core.CommandParser;
+import botcore.core.CommandHandler;
+import botcore.core.CommandParser;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 import utils.STATIC;

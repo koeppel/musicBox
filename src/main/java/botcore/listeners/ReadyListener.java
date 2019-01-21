@@ -1,4 +1,4 @@
-package listeners;
+package botcore.listeners;
 
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
